@@ -1,0 +1,24 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<div class="container">
+			<img id="image" src="foto1.jfif" alt="Image">
+			<p>mos e prek foton </p>
+		</div>
+		<script>
+			const container = document.querySelector('.container');
+			const image = document.querySelector('#image');
+			let isBackgroundColorBlue = true;
+			
+			contanier.addEventListener('click', () => {
+			if (isBackgroundColorBlue){
+				document.body.style.backgroundColor='blue';
+			} else {
+				document.body.style.backgroundColor='pink';
+			}
+			isBackgroundColorBlue = !isBackgroundColorBlue;
+			});
+		</script>
+	</body>
+</html>
